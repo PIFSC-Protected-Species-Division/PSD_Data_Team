@@ -1,0 +1,90 @@
+project: 
+  type: website
+website: 
+  page-navigation: true
+  favicon: images/favicon.ico
+  back-to-top-navigation: true
+  page-footer:
+    border: true
+    center:
+      - text: "Website Owner"
+        href: https://www.fisheries.noaa.gov/about/southwest-fisheries-science-center
+        target: _blank
+      - text: "Contact"
+        href: https://www.fisheries.noaa.gov/contact/southwest-fisheries-science-center
+        target: _blank
+      - text: "NOAA"
+        href: https://www.noaa.gov/
+        target: _blank
+      - text: "Privacy Policy"
+        href: https://www.noaa.gov/privacy.html
+        target: _blank
+      - text: "Information Quality"
+        href: https://www.noaa.gov/organization/information-technology/policy-oversight/information-quality
+        target: _blank
+      - text: "Disclaimer"
+        href: https://www.fisheries.noaa.gov/national/about-us/website-policies-and-disclaimers
+        target: _blank
+    right:
+      - text: "<img src='/images/logos/doc_logo_black.gif' style='height: 50px; width: auto;'/>"
+        href: https://www.commerce.gov/
+  navbar:
+    title: "Ecosystem Science Division Data Inventory"
+    background: $navbar-bg
+    logo: "images/logos/ESD_meatball.png"
+    favicon: images/favicon.ico
+    pinned: true
+    align: center
+    tools: 
+      - icon: github
+        href: https://github.com/lmdewitt/ESD-data
+
+    style: "docked"
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Resources"
+        href: resources.qmd
+  sidebar:
+    title: "ESD Data Links"
+    id: main-docs
+    style: "docked"
+    collapse-level: 2
+    contents:
+      - text: "<b>Quick Links</b>"
+      - section: "InPort Links"
+        contents:
+          - text: "AMLR"
+            href: https://www.fisheries.noaa.gov/inport/item/10759
+          - text: "CalCOFI"
+            href: https://www.fisheries.noaa.gov/inport/q?keywords=CalCOFI%7EFRD&orgId=1060&itemTypeAll=on
+      - section: "ERDDAP links"
+        contents:
+          - text: "CalCOFI"
+            href: https://oceanview.pfeg.noaa.gov/erddap/search/advanced.html?searchFor=erdCalCOFI
+          - text: "Shadowgraph"
+            href: https://oceanview.pfeg.noaa.gov/erddap/tabledap/esd_amlr_visual_zooplankton.html
+      - section: "Repositories"
+        contents:
+          - text: "Some GitHub links"
+format:
+  html:
+    backgroundcolor: "#fdfdfd"
+    theme:
+      light: [cosmo, theme.scss] 
+      dark: [cosmo, theme-dark.scss]
+    css: style.css
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    link-external-icon: true
+    toc: true
+
+filters:
+  - include-files.lua
+  - quarto
+
+engine: knitr  

@@ -1,0 +1,92 @@
+---
+title: "NOAA Fisheries - Southwest Fisheries Science Center - Ecosystem Science Division"
+subtitle: "Data Inventory"
+sidebar: main-docs
+page-layout: full
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    grid:
+      body-width: 1200px
+listing:
+  - id: bygrid
+    type: grid
+    grid-columns: 5
+    grid-item-align: center
+    categories: unnumbered
+    page-size: 32
+    filter-ui: true
+    fields: [image,title,description,categories]
+    contents:
+      - amlr/*.qmd
+      - "!amlr/amlr.qmd"
+      - sos/*.qmd
+      - "!sos/sos.qmd"
+      - gcp/*.qmd
+      - calcofi/*.qmd
+      - "!calcofi/calcofi.qmd"
+  - id: bytable
+    type: table
+    table-hover: true
+    table-striped: true
+    categories: unnumbered
+    page-size: 32
+    sort: "categories"
+    sort-ui: [title,categories,contact]
+    field-display-names:
+      contact: "Contact"
+    filter-ui: true
+    fields: [image,title,contact,description,categories]
+    contents:
+      - amlr/*.qmd
+      - "!amlr/amlr.qmd"
+      - sos/*.qmd
+      - "!sos/sos.qmd"
+      - gcp/*.qmd
+      - calcofi/*.qmd
+      - "!calcofi/calcofi.qmd"
+      - ce/*.qmd
+      - "!ce/ce.qmd"
+  - id: byblog
+    type: default
+    categories: unnumbered
+    page-size: 32
+    sort: "categories"
+    sort-ui: [title,categories,contact]
+    field-display-names:
+      contact: "Contact"
+    filter-ui: true
+    fields: [image,title,contact,description,categories,filename,file-modified]
+    contents:
+      - amlr/*.qmd
+      - "!amlr/amlr.qmd"
+      - sos/*.qmd
+      - "!sos/sos.qmd"
+      - gcp/*.qmd
+      - calcofi/*.qmd
+include-after-body: clear-filter.html
+---
+
+::: {#data-tabset .panel-tabset}
+
+## Grid
+
+:::: {#bygrid}
+
+::::
+
+## Table
+
+:::: {#bytable}
+
+::::
+
+## List
+
+:::: {#byblog}
+
+::::
+
+:::
+
