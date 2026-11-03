@@ -26,20 +26,19 @@ format:
 
 ## Google Cloud Buckets
 
-<b>Acoustics (PAM-SI):<b>
-* [pifsc-1](https://console.cloud.google.com/storage/browser/pifsc-1;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false)
-* [pifsc-1-detector-output](https://console.cloud.google.com/storage/browser/pifsc-1-detector-output;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false)
-* [pifsc-1-working](https://console.cloud.google.com/storage/browser/pifsc-1-working;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false)
+[pifsc-1](https://console.cloud.google.com/storage/browser/pifsc-1;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false); Acoustics (PAM-SI): Holds raw passive acoustic monitoring data (e.g. wav, xwav, sud, etc.)
 
-<b>Cetaceans:<b>
-* [nmfs-pifsc-cetacean-visual-survey-raw](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-raw;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false)
-* [nmfs-pifsc-cetacean-visual-survey-processed](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-processed;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false&rapt=AEjHL4OwYGuFboSzayIcbKt9wEiIQzv3Pd4EFd6_JrevPZRH37wG46T8F4ZVcJ0ypLE0a0wFbU_hiOx4hfhqkpKwaeBK3n7aps7DRpzQB4cusHumQuHTf5c)
+[pifsc-1-detector-output](https://console.cloud.google.com/storage/browser/pifsc-1-detector-output;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false); Acoustics (PAM-SI): Contains processing outputs from various data streams (e.g. PAMGuard database and binary files)
 
-<b>Photos (cetaceans/monk seals/turtles):<b>
-* [nmfs-dev-uc1-pifsc-psd](https://console.cloud.google.com/storage/browser/nmfs-dev-uc1-pifsc-psd;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-osi-dev-1&prefix=&forceOnObjectsSortingFiltering=false)
+[pifsc-1-working](https://console.cloud.google.com/storage/browser/pifsc-1-working;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false); Acoustics (PAM-SI): Contains all other data some of which can be temporary depending on the need.
 
-<b>UMS:<b>
-* [nmfs-pifsc-ums](https://console.cloud.google.com/storage/browser/nmfs-pifsc-ums;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false)
+[nmfs-pifsc-cetacean-visual-survey-raw](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-raw;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false); Cetaceans: Visual survey data
+
+[nmfs-pifsc-cetacean-visual-survey-processed](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-processed;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false&rapt=AEjHL4OwYGuFboSzayIcbKt9wEiIQzv3Pd4EFd6_JrevPZRH37wG46T8F4ZVcJ0ypLE0a0wFbU_hiOx4hfhqkpKwaeBK3n7aps7DRpzQB4cusHumQuHTf5c); Cetaceans: Contains processing outputs from various data streams
+
+[nmfs-dev-uc1-pifsc-psd](https://console.cloud.google.com/storage/browser/nmfs-dev-uc1-pifsc-psd;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-osi-dev-1&prefix=&forceOnObjectsSortingFiltering=false); Photos (cetaceans/monk seals/turtles): Optics-SI bucket access
+
+[nmfs-pifsc-ums](https://console.cloud.google.com/storage/browser/nmfs-pifsc-ums;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false); UMS: Seaglider outputs other than the acoustic raw recordings
 
 ## Data Dictionary
 
