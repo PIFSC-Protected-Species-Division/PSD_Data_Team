@@ -2,33 +2,19 @@
   {
     "listing": "/index.html",
     "items": [
-      "/sos/acoustic_glider.html",
-      "/sos/acoustic_mooring.html",
-      "/amlr/cruise.html",
-      "/amlr/bio-logger.html",
-      "/calcofi/calcofi_databases.html",
-      "/sos/env_glider.html",
-      "/sos/env_mooring.html",
-      "/amlr/finfish.html",
-      "/gcp/gcp.html",
-      "/amlr/krill.html",
-      "/amlr/lipid.html",
-      "/sos/optic_glider.html",
-      "/amlr/pinniped.html",
-      "/amlr/seabird.html",
-      "/amlr/seafloor_imagery.html",
-      "/amlr/uas.html",
-      "/amlr/video.html",
-      "/calcofi/calcofi.html"
+      "/databases/BioSamples.html",
+      "/databases/CampGear.html",
+      "/databases/CetaceanGear.html",
+      "/databases/Cetaceans.html",
+      "/databases/Makara.html",
+      "/databases/SPA.html",
+      "/databases/TDPS.html"
     ]
   },
   {
     "listing": "/about.html",
     "items": [
-      "/amlr/amlr.html",
-      "/calcofi/calcofi.html",
-      "/ce/ce.html",
-      "/sos/sos.html"
+      "/databases/databases.html"
     ]
   }
 ]
