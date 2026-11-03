@@ -1,6 +1,6 @@
 ---
-title: "NOAA Fisheries - Southwest Fisheries Science Center - Ecosystem Science Division"
-subtitle: "Data Inventory"
+title: "Data Inventory"
+subtitle: ""
 sidebar: main-docs
 page-layout: full
 format:
@@ -19,13 +19,15 @@ listing:
     filter-ui: true
     fields: [image,title,description,categories]
     contents:
-      - amlr/*.qmd
-      - "!amlr/amlr.qmd"
-      - sos/*.qmd
-      - "!sos/sos.qmd"
-      - gcp/*.qmd
-      - calcofi/*.qmd
-      - "!calcofi/calcofi.qmd"
+      # - amlr/*.qmd
+      # - "!amlr/amlr.qmd"
+      # - sos/*.qmd
+      # - "!sos/sos.qmd"
+      # - gcp/*.qmd
+      # - calcofi/*.qmd
+      # - "!calcofi/calcofi.qmd"
+      - databases/*.qmd
+      - "!databases/databases.qmd"
   - id: bytable
     type: table
     table-hover: true
@@ -39,15 +41,17 @@ listing:
     filter-ui: true
     fields: [image,title,contact,description,categories]
     contents:
-      - amlr/*.qmd
-      - "!amlr/amlr.qmd"
-      - sos/*.qmd
-      - "!sos/sos.qmd"
-      - gcp/*.qmd
-      - calcofi/*.qmd
-      - "!calcofi/calcofi.qmd"
-      - ce/*.qmd
-      - "!ce/ce.qmd"
+      # - amlr/*.qmd
+      # - "!amlr/amlr.qmd"
+      # - sos/*.qmd
+      # - "!sos/sos.qmd"
+      # - gcp/*.qmd
+      # - calcofi/*.qmd
+      # - "!calcofi/calcofi.qmd"
+      # - ce/*.qmd
+      # - "!ce/ce.qmd"
+      - databases/*.qmd
+      - "!databases/databases.qmd"
   - id: byblog
     type: default
     categories: unnumbered
@@ -59,12 +63,14 @@ listing:
     filter-ui: true
     fields: [image,title,contact,description,categories,filename,file-modified]
     contents:
-      - amlr/*.qmd
-      - "!amlr/amlr.qmd"
-      - sos/*.qmd
-      - "!sos/sos.qmd"
-      - gcp/*.qmd
-      - calcofi/*.qmd
+      # - amlr/*.qmd
+      # - "!amlr/amlr.qmd"
+      # - sos/*.qmd
+      # - "!sos/sos.qmd"
+      # - gcp/*.qmd
+      # - calcofi/*.qmd
+      - databases/*.qmd
+      - "!databases/databases.qmd"
 include-after-body: clear-filter.html
 ---
 

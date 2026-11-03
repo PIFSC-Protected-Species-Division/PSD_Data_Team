@@ -8,10 +8,10 @@ website:
     border: true
     center:
       - text: "Website Owner"
-        href: https://www.fisheries.noaa.gov/about/southwest-fisheries-science-center
+        href: https://www.fisheries.noaa.gov/about/pacific-islands-fisheries-science-center
         target: _blank
       - text: "Contact"
-        href: https://www.fisheries.noaa.gov/contact/southwest-fisheries-science-center
+        href: https://www.fisheries.noaa.gov/contact/pacific-islands-fisheries-science-center
         target: _blank
       - text: "NOAA"
         href: https://www.noaa.gov/
@@ -29,15 +29,15 @@ website:
       - text: "<img src='/images/logos/doc_logo_black.gif' style='height: 50px; width: auto;'/>"
         href: https://www.commerce.gov/
   navbar:
-    title: "Ecosystem Science Division Data Inventory"
+    title: "PSD: Data Team"
     background: $navbar-bg
-    logo: "images/logos/ESD_meatball.png"
+    logo: "images/logos/noaa_logo.png"
     favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
       - icon: github
-        href: https://github.com/lmdewitt/ESD-data
+        href: https://github.com/PIFSC-Protected-Species-Division/PSD_Data_Team
 
     style: "docked"
     search: true
@@ -49,30 +49,35 @@ website:
       - text: "Resources"
         href: resources.qmd
   sidebar:
-    title: "ESD Data Links"
+    title: "PSD Data Links"
+    logo: "images/logos/PSD_DataTeam_Icon.png" 
+    background: "#88BFAB"
     id: main-docs
     style: "docked"
     collapse-level: 2
     contents:
       - text: "<b>Quick Links</b>"
-      - section: "InPort Links"
+      - section: "New Requests"
         contents:
-          - text: "AMLR"
-            href: https://www.fisheries.noaa.gov/inport/item/10759
-          - text: "CalCOFI"
-            href: https://www.fisheries.noaa.gov/inport/q?keywords=CalCOFI%7EFRD&orgId=1060&itemTypeAll=on
-      - section: "ERDDAP links"
+          - text: "Apps"
+            href:
+          - text: "Database"
+            href:  
+          - text: "Data Science"
+            href:           
+      - section: "Issues"
         contents:
-          - text: "CalCOFI"
-            href: https://oceanview.pfeg.noaa.gov/erddap/search/advanced.html?searchFor=erdCalCOFI
-          - text: "Shadowgraph"
-            href: https://oceanview.pfeg.noaa.gov/erddap/tabledap/esd_amlr_visual_zooplankton.html
-      - section: "Repositories"
-        contents:
-          - text: "Some GitHub links"
+          - text: "Apps"
+            href:
+          - text: "Database"
+            href:  
+          - text: "Data Science"
+            href:           
+        
+      
 format:
   html:
-    backgroundcolor: "#fdfdfd"
+    backgroundcolor: "#C9F1FF"
     theme:
       light: [cosmo, theme.scss] 
       dark: [cosmo, theme-dark.scss]

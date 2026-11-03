@@ -1,0 +1,26 @@
+---
+title: "Cetaceans"
+sidebar: main-docs
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    grid:
+      body-width: 1200px
+image: images/Humpback_Icon.jpg
+categories: [databases,cetacean]
+description: Cetacean Sighting Database
+contact: Marie Hill
+---
+
+### Current System
+
+* Access (not fully developed) FileMaker/Go
+
+### Proposed System
+
+* Oracle
+
+### Proposed Front-End
+
+* ???

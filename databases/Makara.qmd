@@ -1,0 +1,25 @@
+---
+title: "Makara"
+sidebar: main-docs
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    grid:
+      body-width: 1200px
+image: images/Makara_Icon.png
+categories: [databases,cetacean,acoustics]
+description: Makara Passive Acoustic Database
+contact: Jennifer McCullough
+---
+
+### Current System
+
+* [Makara Portal](https://makara-462670382708.us-east4.run.app/)
+  - Google: BigQuery
+  - PostgreSQL
+
+* [NOAA Passive Acoustics](https://passiveacoustics.fisheries.noaa.gov/)
+
+* [PACM](https://passiveacoustics.fisheries.noaa.gov/pacm/#/)
+  - Visualization portal of all NMFS PAM data

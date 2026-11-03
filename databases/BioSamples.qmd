@@ -1,0 +1,26 @@
+---
+title: "Biological Samples"
+sidebar: main-docs
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    grid:
+      body-width: 1200px
+image: images/BioSamples_Icon.jpg
+categories: [databases,monkseal,turtle,cetacean]
+description: Bio samples database
+contact: Claudia
+---
+
+### Current System
+
+* Freezerworks 
+
+### Proposed System
+
+* Oracle (incorporated into SPA)
+
+### Proposed Front-End
+
+* ???

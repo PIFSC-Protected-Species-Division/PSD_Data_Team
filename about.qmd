@@ -1,5 +1,5 @@
 ---
-title: "Ecosystem Science Division Groups"
+title: "PIFSC: Protected Species Division Projects"
 sidebar: main-docs
 page-layout: full
 format:
@@ -18,8 +18,9 @@ listing:
     filter-ui: true
     fields: [image,title,description,categories]
     contents:
-      - "amlr/amlr.qmd"
-      - "sos/sos.qmd"
-      - "calcofi/calcofi.qmd"
-      - "ce/ce.qmd"
+      # - "amlr/amlr.qmd"
+      # - "sos/sos.qmd"
+      # - "calcofi/calcofi.qmd"
+      # - "ce/ce.qmd"
+      - "databases/databases.qmd"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "ESD Data Resources"
+title: "PSD Data Resources"
 sidebar: main-docs
 age-layout: full
 format:
@@ -10,18 +10,41 @@ format:
       body-width: 1200px
 ---
 
+## Google Shared Drives
+
+* [NMFS PIC PSD](https://drive.google.com/drive/u/0/folders/0APAnRM9DvdiOUk9PVA)
+* [NMFS PIC Gliders]()
+* [NMFS PIC PSD Cetacean Research](https://drive.google.com/drive/u/0/folders/0ANj_3r4f8hSyUk9PVA)
+* [NMFS PIC PSD Longline Acoustic Monitoring]()
+* [NMFS PIC PSD FOS]()
+* [NMFS PIC MTBAP Marine Turtle](https://drive.google.com/drive/u/0/folders/0AOIdhnKSIUBoUk9PVA)
+* [NMFS PIC PSD MonkSeal](https://drive.google.com/drive/u/0/folders/0AFIoqSjZoP-0Uk9PVA)
+* [NMFS PIC PSD MonkSeal Archive](https://drive.google.com/drive/folders/0ABI4ehHeK8STUk9PVA)
+* [NMFS PIC PSD MonkSeal Photo Archive](https://drive.google.com/drive/folders/0AI9ex4HvzxbVUk9PVA)
+* [NMFS PIC PSD MonkSeal Photo DB](https://drive.google.com/drive/folders/0ACJuP9SPHf_OUk9PVA)
+
+
+## Google Cloud Buckets
+
+<b>Acoustics (PAM-SI):<b>
+* [pifsc-1](https://console.cloud.google.com/storage/browser/pifsc-1;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false)
+* [pifsc-1-detector-output](https://console.cloud.google.com/storage/browser/pifsc-1-detector-output;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false)
+* [pifsc-1-working](https://console.cloud.google.com/storage/browser/pifsc-1-working;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false)
+
+<b>Cetaceans:<b>
+* [nmfs-pifsc-cetacean-visual-survey-raw](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-raw;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false)
+* [nmfs-pifsc-cetacean-visual-survey-processed](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-processed;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false&rapt=AEjHL4OwYGuFboSzayIcbKt9wEiIQzv3Pd4EFd6_JrevPZRH37wG46T8F4ZVcJ0ypLE0a0wFbU_hiOx4hfhqkpKwaeBK3n7aps7DRpzQB4cusHumQuHTf5c)
+
+<b>Photos (cetaceans/monk seals/turtles):<b>
+* [nmfs-dev-uc1-pifsc-psd](https://console.cloud.google.com/storage/browser/nmfs-dev-uc1-pifsc-psd;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-osi-dev-1&prefix=&forceOnObjectsSortingFiltering=false)
+
+<b>UMS:<b>
+* [nmfs-pifsc-ums](https://console.cloud.google.com/storage/browser/nmfs-pifsc-ums;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false)
+
+## Data Dictionary
+
+* Project or taxa based???
+
 ## InPort Links
 
-* [AMLR](https://www.fisheries.noaa.gov/inport/item/10759)
-* [CalCOFI](https://www.fisheries.noaa.gov/inport/q?keywords=CalCOFI%7EFRD&orgId=1060&itemTypeAll=on)
-
-## ERDDAP links
-
-* [CalCOFI](https://oceanview.pfeg.noaa.gov/erddap/search/index.html?&searchFor=erdCalCOFI)
-* [Climate & Ecosystems](https://oceanview.pfeg.noaa.gov/erddap)
-* [Coastwatch](https://coastwatch.pfeg.noaa.gov/erddap)
-
-## Web Pages
-
-* [Climate & Ecosystems Projects and Products](https://lmdewitt.github.io/CEG-projects/)
-* [Coastwatch](https://coastwatch-wcn.github.io/)
+* [Cetaceans - Marianas](https://www.fisheries.noaa.gov/inport/item/53523){target="_blank"}

@@ -1,0 +1,26 @@
+---
+title: "Cetacean Gear"
+sidebar: main-docs
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    grid:
+      body-width: 1200px
+image: images/CetaceanGear_Icon.jpg
+categories: [databases,cetacean]
+description: Cetacean visual survey field gear
+contact: Vikram Khurana
+---
+
+### Current System
+
+* Google Sheet 
+
+### Proposed System
+
+* Oracle
+
+### Proposed Front-End
+
+* ???

@@ -1,0 +1,26 @@
+---
+title: "Camp Gear"
+sidebar: main-docs
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    grid:
+      body-width: 1200px
+image: images/CampGear_Icon.jpg
+categories: [databases,monkseal,turtle]
+description: Field camp gear database
+contact: Christy Kozama
+---
+
+### Current System
+
+* Access 
+
+### Proposed System
+
+* Oracle
+
+### Proposed Front-End
+
+* ???
