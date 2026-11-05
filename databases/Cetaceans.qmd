@@ -12,6 +12,7 @@ categories: [databases,cetacean]
 description: Cetacean Sighting Database
 contact: Marie Hill
 ---
+![](images/Humpback_Icon.jpg){fig-align="left" width="151"}
 
 ### Current System
 

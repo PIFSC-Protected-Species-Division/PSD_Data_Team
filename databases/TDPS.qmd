@@ -12,6 +12,7 @@ categories: [databases,turtle]
 description: Sea turtle database
 contact: Vikram Khurana
 ---
+![](images/Turtle_Icon.jpg){fig-align="left" width="151"}
 
 ### Current System
 

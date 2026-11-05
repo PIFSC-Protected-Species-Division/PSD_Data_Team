@@ -12,6 +12,7 @@ categories: [databases,cetacean]
 description: Cetacean visual survey field gear
 contact: Vikram Khurana
 ---
+![](images/CetaceanGear_Icon.jpg){fig-align="left" width="151"}
 
 ### Current System
 

@@ -12,6 +12,7 @@ categories: [databases,monkseal,turtle]
 description: Field camp gear database
 contact: Christy Kozama
 ---
+![](images/CampGear_Icon.jpg){fig-align="left" width="151"}
 
 ### Current System
 

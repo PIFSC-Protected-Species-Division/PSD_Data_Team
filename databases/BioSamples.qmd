@@ -12,6 +12,7 @@ categories: [databases,monkseal,turtle,cetacean]
 description: Bio samples database
 contact: Claudia
 ---
+![](images/BioSamples_Icon.jpg){fig-align="left" width="151"}
 
 ### Current System
 
