@@ -84,7 +84,7 @@ format:
     css: style.css
     code-copy: true
     code-overflow: wrap
-    link-external-newwindow: true
+    link-external-newwindow: false
     link-external-icon: true
     toc: true
 

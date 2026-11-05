@@ -46,4 +46,4 @@ format:
 
 ## InPort Links
 
-* [Cetaceans - Marianas](https://www.fisheries.noaa.gov/inport/item/53523){target="_blank"}
+* [Cetaceans - Marianas](https://www.fisheries.noaa.gov/inport/item/53523)
