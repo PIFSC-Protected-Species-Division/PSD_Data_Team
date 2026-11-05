@@ -11,6 +11,6 @@ image: images/Database_Icon.jpg
 categories: [databases,cetacean,monkseal,turtle,UMS,acoustics]
 description: Protected Species Division Databases
 ---
-
+![](images/Database_Icon.jpg){fig-align="left" width="151"}
 
 
