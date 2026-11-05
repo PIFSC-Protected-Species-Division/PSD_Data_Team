@@ -451,7 +451,7 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="ZGF0YWJhc2VzJTJDY2V0YWNlYW4lMkNtb25rc2VhbCUyQ3R1cnRsZSUyQ1VNUyUyQ2Fjb3VzdGljcw==" data-listing-file-modified-sort="1793758280582" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="ZGF0YWJhc2VzJTJDY2V0YWNlYW4lMkNtb25rc2VhbCUyQ3R1cnRsZSUyQ1VNUyUyQ2Fjb3VzdGljcw==" data-listing-file-modified-sort="1793847512749" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./databases/databases.html" class="quarto-grid-link no-external-icon">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -607,24 +607,6 @@ Databases
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/PIFSC-Protected-Species-Division\.github\.io\/PSD_Data_Team\/");
-      const newWindowLabel = "(opens in a new tab)";
-      const newWindowNoteId = "quarto-ext-newwindow-label";
-      // Links reference one hidden label through aria-describedby, so the
-      // announcement never changes their accessible name.
-      var describeNewWindow = (link) => {
-        if (!window.document.getElementById(newWindowNoteId)) {
-          var newWindowNote = window.document.createElement("span");
-          newWindowNote.id = newWindowNoteId;
-          newWindowNote.hidden = true;
-          newWindowNote.textContent = newWindowLabel;
-          window.document.body.appendChild(newWindowNote);
-        }
-        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
-        if (!describedBy.includes(newWindowNoteId)) {
-          describedBy.push(newWindowNoteId);
-          link.setAttribute("aria-describedby", describedBy.join(" "));
-        }
-      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -639,12 +621,6 @@ Databases
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
-            describeNewWindow(link);
           if (!link.classList.contains('no-external-icon')) {
             // default icon
             link.classList.add("external");
