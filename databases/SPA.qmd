@@ -12,16 +12,17 @@ categories: [databases,monkseal]
 description: Hawaiian monk seal database
 contact: Vikram Khurana
 ---
+
 ![](images/HMS_Icon.jpg){fig-align="left" width="151"}
 
 ### Current System
 
-* Access 
+- Access
 
 ### Proposed System
 
-* Oracle
+- Oracle
 
 ### Proposed Front-End
 
-* ???
+- ???
