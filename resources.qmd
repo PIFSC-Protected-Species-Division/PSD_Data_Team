@@ -42,6 +42,10 @@ format:
 
 [pifsc-1-working](https://console.cloud.google.com/storage/browser/pifsc-1-working;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false); Acoustics (PAM-SI): Contains all other data some of which can be temporary depending on the need.
 
+[pypam-prod-outputs](https://console.cloud.google.com/storage/browser/pypam-prod-outputs?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))) Acoustics (PAM-SI): Pypam bucket for soundscape outputs
+
+[pypam-prod-yamls](https://console.cloud.google.com/storage/browser/pypam-prod-outputs/PIFSC_ESD_JAR_ST_604270603?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))) Acoustics (PAM-SI): Pypam bucket for soundscape set up files
+
 [nmfs-pifsc-cetacean-visual-survey-raw](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-raw;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false); Cetaceans: Visual survey data
 
 [nmfs-pifsc-cetacean-visual-survey-processed](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-processed;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false&rapt=AEjHL4OwYGuFboSzayIcbKt9wEiIQzv3Pd4EFd6_JrevPZRH37wG46T8F4ZVcJ0ypLE0a0wFbU_hiOx4hfhqkpKwaeBK3n7aps7DRpzQB4cusHumQuHTf5c); Cetaceans: Contains processing outputs from various data streams
