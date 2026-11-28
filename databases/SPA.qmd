@@ -12,16 +12,47 @@ categories: [databases,monkseal]
 description: Hawaiian monk seal database
 contact: Vikram Khurana
 ---
+
 ![](images/HMS_Icon.jpg){fig-align="left" width="151"}
 
 ### Current System
 
-* Access 
+- Access
+
+**Location**: Front-ends are at A:\Shared drives\NMFS PIC PSD MonkSeal\SPA
+
+Back-end is at \\\\picqueenfish\PSD\databases\SPA\_be.accdb
+
+**What each file does**
+
+SPA: The main SPA front end. Used to enter and view data\
+SPA - Error Checks: Used to run error checks while at IRC. It makes a local copy of the data and runs checks on them to make the process faster
+
+SPA_export: Used to run ASCII exports from SPA to work with SAS programs
+
+SPA_Queries: Used to run and save queries on an copy of the SPA data (backend is at \\picqueenfish\PSD\databases\SPA\_Queries_be.accdb)
+
+SPA_read-only: A read only copy of SPA used by Liz once in a while
+
+SPA - Mobile: Don't think it is being used anymore. Used to sync with read only and very limited phone version of SPA
+
+SPA_export_field_camps: Don't think it is being used anymore. Export for field camps to export their data
+
+**Users**: \
+**For NWHI**: An island specific copy of SPA is made for each island when they go out in the field, which is then imported into the master database (at IRC) when the data returns. Brenda lets Vikram know when a dataset is ready to import and Vikram runs the import process. The data system is accessible from multiple laptops in the islands if the field campers requested P2P networking of the laptops
+
+At IRC, the database is stored on a shared windows drive and the front-ends are stored on each users computer to access the data
+
+The islands we deploy to can vary every year from these one: FFS, LAY, LIS, PHR, KUR, Midway (MDY). We also visit Nihoa-Mokumanamana and Niihau sometimes
+
+**For MHI**: The data is entered into SPA_MHI or imported from island/partner specific google sheets using import programs stored on and run from PICV026. The MHI programs are at A:\Shared drives\NMFS PIC PSD MonkSeal\SPA\MHI
+
+The import programs rely on a Devart ODBC driver for Google Sheets
 
 ### Proposed System
 
-* Oracle
+- TBD
 
 ### Proposed Front-End
 
-* ???
+- TBD

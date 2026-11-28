@@ -12,16 +12,23 @@ categories: [databases,monkseal,turtle]
 description: Field camp gear database
 contact: Christy Kozama
 ---
+
 ![](images/CampGear_Icon.jpg){fig-align="left" width="151"}
 
 ### Current System
 
-* Access 
+- Access
+
+Front-end is at: A:\Shared drives\NMFS PIC PSD\Databases\Gear Database\\Gear_Database_over_VPN.accdb
+
+Users copy this file to their local computers and work from there
+
+The backend is at \\picqueenfish\PSD\databases\Gear\_Database_CURRENT_be.accdb
 
 ### Proposed System
 
-* Oracle
+- TBD
 
 ### Proposed Front-End
 
-* ???
+- TBD
