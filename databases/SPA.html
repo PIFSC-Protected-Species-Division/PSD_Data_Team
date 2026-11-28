@@ -416,19 +416,35 @@ ul.task-list li input[type="checkbox"] {
 <section id="current-system" class="level3">
 <h3 class="anchored" data-anchor-id="current-system">Current System</h3>
 <ul>
-<li>Access</li>
+<li>Access HEAD</li>
 </ul>
+<p><strong>Location</strong>: Front-ends are at A:drivesPIC PSD MonkSeal</p>
+<p>Back-end is at \\picqueenfish_be.accdb</p>
+<p><strong>What each file does</strong></p>
+<p>SPA: The main SPA front end. Used to enter and view data<br>
+SPA - Error Checks: Used to run error checks while at IRC. It makes a local copy of the data and runs checks on them to make the process faster</p>
+<p>SPA_export: Used to run ASCII exports from SPA to work with SAS programs</p>
+<p>SPA_Queries: Used to run and save queries on an copy of the SPA data (backend is at \picqueenfish_Queries_be.accdb)</p>
+<p>SPA_read-only: A read only copy of SPA used by Liz once in a while</p>
+<p>SPA - Mobile: Don’t think it is being used anymore. Used to sync with read only and very limited phone version of SPA</p>
+<p>SPA_export_field_camps: Don’t think it is being used anymore. Export for field camps to export their data</p>
+<p><strong>Users</strong>:<br>
+<strong>For NWHI</strong>: An island specific copy of SPA is made for each island when they go out in the field, which is then imported into the master database (at IRC) when the data returns. Brenda lets Vikram know when a dataset is ready to import and Vikram runs the import process. The data system is accessible from multiple laptops in the islands if the field campers requested P2P networking of the laptops</p>
+<p>At IRC, the database is stored on a shared windows drive and the front-ends are stored on each users computer to access the data</p>
+<p>The islands we deploy to can vary every year from these one: FFS, LAY, LIS, PHR, KUR, Midway (MDY). We also visit Nihoa-Mokumanamana and Niihau sometimes</p>
+<p><strong>For MHI</strong>: The data is entered into SPA_MHI or imported from island/partner specific google sheets using import programs stored on and run from PICV026. The MHI programs are at A:drivesPIC PSD MonkSeal</p>
+<p>The import programs rely on a Devart ODBC driver for Google Sheets</p>
 </section>
 <section id="proposed-system" class="level3">
 <h3 class="anchored" data-anchor-id="proposed-system">Proposed System</h3>
 <ul>
-<li>Oracle</li>
+<li>TBD</li>
 </ul>
 </section>
 <section id="proposed-front-end" class="level3">
 <h3 class="anchored" data-anchor-id="proposed-front-end">Proposed Front-End</h3>
 <ul>
-<li>???</li>
+<li>TBD</li>
 </ul>
 
 
