@@ -25,6 +25,13 @@ format:
 * [NMFS PIC PSD MonkSeal Archive](https://drive.google.com/drive/folders/0ABI4ehHeK8STUk9PVA)
 * [NMFS PIC PSD MonkSeal Photo Archive](https://drive.google.com/drive/folders/0AI9ex4HvzxbVUk9PVA)
 * [NMFS PIC PSD MonkSeal Photo DB](https://drive.google.com/drive/folders/0ACJuP9SPHf_OUk9PVA)
+* [MonkSeal Photo DB Archives 10-20 NIH-MMM](https://drive.google.com/drive/folders/0ANAEhDvmfIvtUk9PVA)
+* [MonkSeal Photo DB Archives 30 LAL-FFS](https://drive.google.com/drive/folders/0AHjKgk3MVYmUUk9PVA)
+* [MonkSeal Photo DB Archives 40 KAM-LAY](https://drive.google.com/drive/folders/0AJbUwP7NTpn5Uk9PVA)
+* [MonkSeal Photo DB Archives 50 KAP-LIS](https://drive.google.com/drive/folders/0ABASjgBwCa7vUk9PVA)
+* [MonkSeal Photo DB Archives 60 MAN-PHR](https://drive.google.com/drive/folders/0AHP-aPnnE7D2Uk9PVA)
+* [MonkSeal Photo DB Archives 70 KUA-MDY](https://drive.google.com/drive/folders/0ANzVA7_74Np8Uk9PVA)
+* [MonkSeal Photo DB Archives 80 HOL-KUR](https://drive.google.com/drive/folders/0AK3v0i3W_2OaUk9PVA)
 
 
 ## Google Cloud Buckets
@@ -35,6 +42,10 @@ format:
 
 [pifsc-1-working](https://console.cloud.google.com/storage/browser/pifsc-1-working;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pamdata-prod-1&prefix=&forceOnObjectsSortingFiltering=false); Acoustics (PAM-SI): Contains all other data some of which can be temporary depending on the need.
 
+[pypam-prod-outputs](https://console.cloud.google.com/storage/browser/pypam-prod-outputs?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))) Acoustics (PAM-SI): Pypam bucket for soundscape outputs
+
+[pypam-prod-yamls](https://console.cloud.google.com/storage/browser/pypam-prod-outputs/PIFSC_ESD_JAR_ST_604270603?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))) Acoustics (PAM-SI): Pypam bucket for soundscape set up files
+
 [nmfs-pifsc-cetacean-visual-survey-raw](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-raw;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false); Cetaceans: Visual survey data
 
 [nmfs-pifsc-cetacean-visual-survey-processed](https://console.cloud.google.com/storage/browser/nmfs-pifsc-cetacean-visual-survey-processed;tab=objects?forceOnBucketsSortingFiltering=true&organizationId=914466624143&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false&rapt=AEjHL4OwYGuFboSzayIcbKt9wEiIQzv3Pd4EFd6_JrevPZRH37wG46T8F4ZVcJ0ypLE0a0wFbU_hiOx4hfhqkpKwaeBK3n7aps7DRpzQB4cusHumQuHTf5c); Cetaceans: Contains processing outputs from various data streams
@@ -42,6 +53,8 @@ format:
 [nmfs-dev-uc1-pifsc-psd](https://console.cloud.google.com/storage/browser/nmfs-dev-uc1-pifsc-psd;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-osi-dev-1&prefix=&forceOnObjectsSortingFiltering=false); Photos (cetaceans/monk seals/turtles): Optics-SI bucket access
 
 [nmfs-pifsc-ums](https://console.cloud.google.com/storage/browser/nmfs-pifsc-ums;tab=objects?forceOnBucketsSortingFiltering=true&project=ggn-nmfs-pi-infra-1&prefix=&forceOnObjectsSortingFiltering=false); UMS: Seaglider outputs other than the acoustic raw recordings
+
+[nmfs_odp_pifsc/PIFSC](https://console.cloud.google.com/storage/browser/nmfs_odp_pifsc/PIFSC;tab=objects?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&rapt=AEjHL4NVMDqPYBFe7Y1h7zbH6kENrxrwKDtzFkj5BZAAkGZRCu4yShSZSWgOTFGZVAvFHkaQbdH9XWm_H13oV-p657BFPKBYe8pcjcGvjnSCFCZiY-QBgTw&prefix=&forceOnObjectsSortingFiltering=false): Bucket for PIFSC that the public has access too for data transfers
 
 ## Data Dictionary
 
